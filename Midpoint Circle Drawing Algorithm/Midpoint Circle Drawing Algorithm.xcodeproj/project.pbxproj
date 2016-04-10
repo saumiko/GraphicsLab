@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5345D65A1CBA8E60003BDC82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5345D6591CBA8E60003BDC82 /* main.cpp */; };
+		5345D6611CBA8E6F003BDC82 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5345D6601CBA8E6F003BDC82 /* OpenGL.framework */; };
+		5345D6631CBA8E77003BDC82 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5345D6621CBA8E77003BDC82 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5345D6541CBA8E60003BDC82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5345D6561CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Midpoint Circle Drawing Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5345D6591CBA8E60003BDC82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5345D6601CBA8E6F003BDC82 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5345D6621CBA8E77003BDC82 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5345D6531CBA8E60003BDC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5345D6631CBA8E77003BDC82 /* GLUT.framework in Frameworks */,
+				5345D6611CBA8E6F003BDC82 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5345D64D1CBA8E60003BDC82 = {
+			isa = PBXGroup;
+			children = (
+				5345D6621CBA8E77003BDC82 /* GLUT.framework */,
+				5345D6601CBA8E6F003BDC82 /* OpenGL.framework */,
+				5345D6581CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */,
+				5345D6571CBA8E60003BDC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5345D6571CBA8E60003BDC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5345D6561CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5345D6581CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5345D6591CBA8E60003BDC82 /* main.cpp */,
+			);
+			path = "Midpoint Circle Drawing Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5345D6551CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5345D65D1CBA8E60003BDC82 /* Build configuration list for PBXNativeTarget "Midpoint Circle Drawing Algorithm" */;
+			buildPhases = (
+				5345D6521CBA8E60003BDC82 /* Sources */,
+				5345D6531CBA8E60003BDC82 /* Frameworks */,
+				5345D6541CBA8E60003BDC82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midpoint Circle Drawing Algorithm";
+			productName = "Midpoint Circle Drawing Algorithm";
+			productReference = 5345D6561CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5345D64E1CBA8E60003BDC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asif Mohaimen";
+				TargetAttributes = {
+					5345D6551CBA8E60003BDC82 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5345D6511CBA8E60003BDC82 /* Build configuration list for PBXProject "Midpoint Circle Drawing Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5345D64D1CBA8E60003BDC82;
+			productRefGroup = 5345D6571CBA8E60003BDC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5345D6551CBA8E60003BDC82 /* Midpoint Circle Drawing Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5345D6521CBA8E60003BDC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5345D65A1CBA8E60003BDC82 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5345D65B1CBA8E60003BDC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5345D65C1CBA8E60003BDC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5345D65E1CBA8E60003BDC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5345D65F1CBA8E60003BDC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5345D6511CBA8E60003BDC82 /* Build configuration list for PBXProject "Midpoint Circle Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5345D65B1CBA8E60003BDC82 /* Debug */,
+				5345D65C1CBA8E60003BDC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5345D65D1CBA8E60003BDC82 /* Build configuration list for PBXNativeTarget "Midpoint Circle Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5345D65E1CBA8E60003BDC82 /* Debug */,
+				5345D65F1CBA8E60003BDC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5345D64E1CBA8E60003BDC82 /* Project object */;
+}

@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537C593C1CBA8FA00035470C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 537C593B1CBA8FA00035470C /* main.cpp */; };
+		537C59431CBA8FB70035470C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537C59421CBA8FB70035470C /* OpenGL.framework */; };
+		537C59451CBA8FBF0035470C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537C59441CBA8FBF0035470C /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		537C59361CBA8FA00035470C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		537C59381CBA8FA00035470C /* Simple Circle Drawing Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Circle Drawing Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537C593B1CBA8FA00035470C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		537C59421CBA8FB70035470C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		537C59441CBA8FBF0035470C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537C59351CBA8FA00035470C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C59451CBA8FBF0035470C /* GLUT.framework in Frameworks */,
+				537C59431CBA8FB70035470C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537C592F1CBA8FA00035470C = {
+			isa = PBXGroup;
+			children = (
+				537C59441CBA8FBF0035470C /* GLUT.framework */,
+				537C59421CBA8FB70035470C /* OpenGL.framework */,
+				537C593A1CBA8FA00035470C /* Simple Circle Drawing Algorithm */,
+				537C59391CBA8FA00035470C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		537C59391CBA8FA00035470C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537C59381CBA8FA00035470C /* Simple Circle Drawing Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537C593A1CBA8FA00035470C /* Simple Circle Drawing Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				537C593B1CBA8FA00035470C /* main.cpp */,
+			);
+			path = "Simple Circle Drawing Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537C59371CBA8FA00035470C /* Simple Circle Drawing Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537C593F1CBA8FA00035470C /* Build configuration list for PBXNativeTarget "Simple Circle Drawing Algorithm" */;
+			buildPhases = (
+				537C59341CBA8FA00035470C /* Sources */,
+				537C59351CBA8FA00035470C /* Frameworks */,
+				537C59361CBA8FA00035470C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Circle Drawing Algorithm";
+			productName = "Simple Circle Drawing Algorithm";
+			productReference = 537C59381CBA8FA00035470C /* Simple Circle Drawing Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537C59301CBA8FA00035470C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asif Mohaimen";
+				TargetAttributes = {
+					537C59371CBA8FA00035470C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 537C59331CBA8FA00035470C /* Build configuration list for PBXProject "Simple Circle Drawing Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 537C592F1CBA8FA00035470C;
+			productRefGroup = 537C59391CBA8FA00035470C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537C59371CBA8FA00035470C /* Simple Circle Drawing Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537C59341CBA8FA00035470C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C593C1CBA8FA00035470C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		537C593D1CBA8FA00035470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		537C593E1CBA8FA00035470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		537C59401CBA8FA00035470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		537C59411CBA8FA00035470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537C59331CBA8FA00035470C /* Build configuration list for PBXProject "Simple Circle Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C593D1CBA8FA00035470C /* Debug */,
+				537C593E1CBA8FA00035470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537C593F1CBA8FA00035470C /* Build configuration list for PBXNativeTarget "Simple Circle Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C59401CBA8FA00035470C /* Debug */,
+				537C59411CBA8FA00035470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 537C59301CBA8FA00035470C /* Project object */;
+}

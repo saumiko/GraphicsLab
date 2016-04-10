@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530C14B91CBA8CA300B6EFC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 530C14B81CBA8CA300B6EFC9 /* main.cpp */; };
+		530C14C01CBA8CB300B6EFC9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530C14BF1CBA8CB300B6EFC9 /* OpenGL.framework */; };
+		530C14C21CBA8CB900B6EFC9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530C14C11CBA8CB900B6EFC9 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		530C14B31CBA8CA300B6EFC9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		530C14B51CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DDA Line Drawing Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530C14B81CBA8CA300B6EFC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		530C14BF1CBA8CB300B6EFC9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		530C14C11CBA8CB900B6EFC9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530C14B21CBA8CA300B6EFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530C14C21CBA8CB900B6EFC9 /* GLUT.framework in Frameworks */,
+				530C14C01CBA8CB300B6EFC9 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530C14AC1CBA8CA300B6EFC9 = {
+			isa = PBXGroup;
+			children = (
+				530C14C11CBA8CB900B6EFC9 /* GLUT.framework */,
+				530C14BF1CBA8CB300B6EFC9 /* OpenGL.framework */,
+				530C14B71CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */,
+				530C14B61CBA8CA300B6EFC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530C14B61CBA8CA300B6EFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530C14B51CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530C14B71CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				530C14B81CBA8CA300B6EFC9 /* main.cpp */,
+			);
+			path = "DDA Line Drawing Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530C14B41CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530C14BC1CBA8CA300B6EFC9 /* Build configuration list for PBXNativeTarget "DDA Line Drawing Algorithm" */;
+			buildPhases = (
+				530C14B11CBA8CA300B6EFC9 /* Sources */,
+				530C14B21CBA8CA300B6EFC9 /* Frameworks */,
+				530C14B31CBA8CA300B6EFC9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DDA Line Drawing Algorithm";
+			productName = "DDA Line Drawing Algorithm";
+			productReference = 530C14B51CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530C14AD1CBA8CA300B6EFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asif Mohaimen";
+				TargetAttributes = {
+					530C14B41CBA8CA300B6EFC9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 530C14B01CBA8CA300B6EFC9 /* Build configuration list for PBXProject "DDA Line Drawing Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 530C14AC1CBA8CA300B6EFC9;
+			productRefGroup = 530C14B61CBA8CA300B6EFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530C14B41CBA8CA300B6EFC9 /* DDA Line Drawing Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530C14B11CBA8CA300B6EFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530C14B91CBA8CA300B6EFC9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		530C14BA1CBA8CA300B6EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		530C14BB1CBA8CA300B6EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		530C14BD1CBA8CA300B6EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		530C14BE1CBA8CA300B6EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530C14B01CBA8CA300B6EFC9 /* Build configuration list for PBXProject "DDA Line Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530C14BA1CBA8CA300B6EFC9 /* Debug */,
+				530C14BB1CBA8CA300B6EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530C14BC1CBA8CA300B6EFC9 /* Build configuration list for PBXNativeTarget "DDA Line Drawing Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530C14BD1CBA8CA300B6EFC9 /* Debug */,
+				530C14BE1CBA8CA300B6EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530C14AD1CBA8CA300B6EFC9 /* Project object */;
+}
