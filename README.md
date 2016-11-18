@@ -7,6 +7,7 @@ Read [this file](https://github.com/saumiko/GraphicsLab/blob/master/GetStartedWi
 
 ## Implemented algorithms
 Some different algorithms are implemented here in different categories:
+
 1. Line Drawing Algorithms
   - Simple Line Drawing Algorithm
   - DDA Line Drawing Algorithm
